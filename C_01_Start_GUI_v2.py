@@ -15,7 +15,7 @@ class StartQuiz:
         self.start_frame = Frame(padx=70, pady=60)
         self.start_frame.grid()
 
-
+        # MAKE THIS INTRO STRING IN ONE PARAGRAPH==-=-=
         introduction_string = ("History is not just a collection of dates"
         "it is a tapestry woven by the ambition, genius, and courage of individuals." 
         "From empire-builders to revolution-starters, the past is shaped by those who dared to act." 
