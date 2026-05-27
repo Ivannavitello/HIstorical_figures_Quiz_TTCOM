@@ -11,7 +11,7 @@ class StartQuiz:
         """
 
         background = "#DAE8FC"
-        self.start_frame = Frame(padx=70, pady=60)
+        self.start_frame = Frame(padx=50, pady=60)
         self.start_frame.grid()
 
         # MAKE THIS INTRO STRING IN ONE PARAGRAPH==-=-=
@@ -57,7 +57,7 @@ class StartQuiz:
 
         # Create play button ...
         self.start_button = Button(self.start_frame, font=("Arial", 16, "bold"),
-                                   fg="#FFFFFF", bg="#fcbe03", text="Start", width=10,
+                                   fg="#000000", bg="#fcbe03", text="Start Quiz", width=10,
                                    command=self.check_rounds)
         self.start_button.grid(row=5, column=0)
         # self.play_button.place(x=100, y=50)
